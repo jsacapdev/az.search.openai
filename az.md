@@ -16,4 +16,8 @@ Scratch space for notes and learning around Azure Developer CLI.
 
 `conda activate azd`
 
+`nvm install latest`
+
+`node -r fs -e "fs.copyFileSync('sample-env', '.azure/dev/.env', fs.constants.COPYFILE_EXCL)"`
+
 `azd up -e dev`
