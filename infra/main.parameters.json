@@ -8,6 +8,12 @@
     "resourceGroupName": {
       "value": "${AZURE_RESOURCE_GROUP}"
     },
+    "appServicePlanName": {
+      "value": "${AZURE_APP_SERVICE_PLAN}"
+    },
+    "backendServiceName": {
+      "value": "${AZURE_BACKEND_SERVICE}"
+    },
     "location": {
       "value": "${AZURE_LOCATION}"
     },
