@@ -74,7 +74,7 @@
     "embeddingDeploymentName": {
       "value": "${AZURE_OPENAI_EMB_DEPLOYMENT=embedding}"
     },
-    "openAiHost":{
+    "openAiHost": {
       "value": "${OPENAI_HOST=azure}"
     },
     "openAiApiKey": {
@@ -100,6 +100,15 @@
     },
     "allowedOrigin": {
       "value": "${ALLOWED_ORIGIN}"
+    },
+    "logAnalyticsName": {
+      "value": "${AZURE_LOG_ANALYTICS}"
+    },
+    "applicationInsightsName": {
+      "value": "${AZURE_APPLICATION_INSIGHTS}"
+    },
+    "applicationInsightsDashboardName": {
+      "value": "${AZURE_APPLICATION_INSIGHTS_DASHBOARD}"
     }
   }
 }
